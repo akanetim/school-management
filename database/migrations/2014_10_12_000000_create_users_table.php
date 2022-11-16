@@ -11,7 +11,7 @@ return new class extends Migration
      *
      * @return void
      */
-    public function up()
+    /* public function up()
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
-    }
+    }*/
 
     /**
      * Reverse the migrations.

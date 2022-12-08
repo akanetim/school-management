@@ -73,8 +73,8 @@
             <li><a href="{{ route('student.class.view')}}"><i class="ti-more"></i>Student Class</a></li>
             <li><a href="{{ route('student.year.view')}}"><i class="ti-more"></i>Student Year</a></li>
             <li><a href="{{ route('student.group.view')}}"><i class="ti-more"></i>Student Group</a></li>
-           {{-- <li><a href="gallery.html"><i class="ti-more"></i>Gallery</a></li>
-            <li><a href="timeline.html"><i class="ti-more"></i>Timeline</a></li> --}}
+           <li><a  href="{{ route('student.view.shift')}}"><i class="ti-more"></i>Student Shift</a></li>
+           <li><a  href="{{ route('fee.category.view')}}"><i class="ti-more"></i>Fee Category</a></li>
           </ul>
         </li>
 
